@@ -1,6 +1,6 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     text-decoration: none;
     box-sizing: border-box;
 }
@@ -8,16 +8,17 @@
     line-height: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: brown;
+    font-size: 30px;
 }
 header{
     height: 50px;
     width: 100%;
     border: solid 3px;
-
 }
 header ul{
 float: right;
 margin-right: 20px;
+font-size: 30px;
 }
 header ul li{
     display: inline-block;
@@ -45,17 +46,8 @@ header ul li{
        
 }
 .apos{
-margin-top: 3px;
-margin-left:24% 
-}
-article
-
-{
-   
-    margin-left: 300px;
-    
-    padding: 10px;
-     border: solid 2px ;margin-bottom: 60px;
+margin-top: 10px;
+margin-left:30% 
 }
 .loup{
     color: rgb(104, 55, 238);
@@ -80,6 +72,7 @@ footer {
      
    display: inline-flex;
    border: solid 1px;
+   margin-left: 100px;
     
 }
 .ls{
@@ -211,12 +204,6 @@ h1{
     width: 800px;
     height: 500px;
 }
-section{
-    border-color: aqua;
-    margin-left: 10%;
-    height: 500px;
-    width: 800px;
-}
 
 th{
     border: 1px solid  rgb(209, 208, 208);
@@ -234,8 +221,7 @@ td{
 
 }
 table{
-    border-collapse: collapse;
-    
+    border-collapse: collapse;   
 }
 .sec1{
     margin-top: 20px;
@@ -243,7 +229,7 @@ table{
     background-color: rgb(246, 246, 246);
     width: 113vh;
     height: 78vh;
-    padding: 13px;
+    padding: 15px;
     box-shadow: 4px 8px 16px rgb(182, 179, 179);
 }
 button{
@@ -257,4 +243,32 @@ button{
     color: white;
     font-size: 1.4em;
     
+}
+
+section {
+  padding: 40px 50px;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+section .home-container {
+  display: flex;
+  align-items: center;
+}
+
+.home-container img {
+  height: 420px;
+  width: 420px;
+  border-radius: 50%;
+  border: solid 2px #333;
+}
+
+article {
+  margin-left: 30px;
+  border: solid 2px #0c0c0c;
+  padding: 30px;
 }
